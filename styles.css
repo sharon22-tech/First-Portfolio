@@ -1,0 +1,522 @@
+.navbar {
+    padding: 1rem 2rem;
+    background-color:#fafafa !important ;
+  }
+
+  #navbarNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.3rem;
+    transition: color 0.2s ease;
+    
+  }
+  
+  .nav-link:hover {
+    color: #3498db !important;
+  }
+  
+  .nav-link.active {
+    color: #3498db !important;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0.5rem 1rem;
+    }
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  }
+  
+  section.hero {
+    background-color: #f48db4;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  #home-main{
+    font-size: 40px;
+    color: #5543ca;
+  }
+  #home-description{
+    font-size: 20px;
+    color:#5543ca
+  }
+
+  section [class^="container"] {
+    padding: 4rem 2rem;
+  }
+  
+
+  section.about-me{
+  background-color: #fafafa !important;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  }
+
+  .about-me img {
+    border-radius: 30%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-right: 5px;
+
+  }
+  
+  .about-me p {
+    font-size: 18px;
+    color: #666;
+    padding-left: 5px;
+  }
+  
+  .about-me button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  section:not(:first-of-type) {
+    text-align: center;
+  }
+
+  section.services {
+    background-color: #f48db4 !important;
+  }
+  
+  section.services i {
+    font-size: 2rem;
+    margin: 1rem auto 0;
+    border: 2px solid #000000;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #76b6e0;
+  }
+  section .card {
+    border: 2px solid #76b6e0;
+    box-shadow: 4px 4px #76b6e0;
+    transition: all 0.4s;
+    max-width: 22rem;
+    margin-inline: auto;
+    height: 400px;
+    background-color: #ece8e8;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #fafafa;
+    margin-top: 30px;
+    background-color: #76b6e0; 
+    }
+    
+   .card a:hover {
+    color: #fafafa;
+    }
+
+    .skills {
+        background-color: #fafafa; 
+        padding: 50px 0;
+      }
+      
+    .skills .col-md-6 {
+        background-color: #ece8e8;
+        border: 1px solid #f48db4;
+        padding: 15px;
+        margin-bottom: 20px;
+        gap: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+      }
+      
+    .skills img {
+        border-radius: 10px;
+        margin-left: 30px;
+      }
+
+/* Latest Projects Section */
+
+
+.latest-projects {
+    padding: 50px 0;
+    margin-bottom: 20px;
+    background-color: #f48db4;
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .latest-projects .row {
+    margin-bottom: 30px;
+    
+  }
+  
+  .latest-projects .images{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+  
+  .latest-projects .project-info {
+    padding: 20px;
+  }
+  
+  .latest-projects .project-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .latest-projects .project-info p {
+    font-size: 25px;
+    color: #666;
+  }
+  
+  .latest-projects .live-demo {
+    background-color: #76b6e0;
+    color: #666;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .latest-projects .live-demo:hover {
+    background-color: #fafafa;
+  }
+  
+  /* testimonial section */
+  section.testimonial{
+    background-color:#fafafa;
+}
+
+.card{
+    border-color: #3498db;
+    border:2px;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+
+.ratings i{
+    color:blue;
+}
+
+/* Form  styling */
+
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  background-color: #f48db4 !important;
+  max-width: 1500px;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-top: 20px;
+  padding-bottom: 48px;
+     color: #5543ca;
+    }
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,#a72879,#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+/* footer styling */
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#fafafa;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+}
+
+/* Mobile devices (max-width: 576px) */
+@media (max-width: 576px) {
+  /* Navbar */
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+  
+  /* Hero section */
+  section.hero {
+    padding: 2rem 1rem;
+  }
+  #home-main {
+    font-size: 2.5rem;
+  }
+  #home-description {
+    font-size: 1.2rem;
+  }
+  
+  /* About me section */
+  section.about-me {
+    padding: 2rem 1rem;
+  }
+  .about-me img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-me p {
+    font-size: 1.2rem;
+  }
+  
+  /* Services section */
+  section.services {
+    padding: 2rem 1rem;
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+  
+  /* Skills section */
+  section.skills {
+    padding: 2rem 1rem;
+  }
+  .skills img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* Latest projects section */
+  section.latest-projects {
+    padding: 2rem 1rem;
+  }
+  .latest-projects .row {
+    margin-bottom: 2rem;
+  }
+  
+  /* Testimonials section */
+  section.testimonial {
+    padding: 2rem 1rem;
+  }
+  .testimonial .row {
+    margin-bottom: 2rem;
+  }
+  
+  /* Get in touch section */
+  section.get-in-touch {
+    padding: 2rem 1rem;
+  }
+  .get-in-touch .title {
+    font-size: 2rem;
+    color: #000;
+  }
+  .contact-form {
+    padding: 1rem;
+  }
+  
+  /* Footer section */
+  section.footer {
+    padding: 1rem;
+  }
+}
+
+/* Tablet devices (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* Hero section */
+  section.hero {
+    padding: 3rem 2rem;
+  }
+  #home-main {
+    font-size: 3rem;
+  }
+  #home-description {
+    font-size: 1.5rem;
+  }
+  
+  /* About me section */
+  section.about-me {
+    padding: 3rem 2rem;
+  }
+  .about-me img {
+    width: 250px;
+    height: 250px;
+  }
+  .about-me p {
+    font-size: 1.5rem;
+  }
+  
+  /* Services section */
+  section.services {
+    padding: 3rem 2rem;
+  }
+  .card {
+    margin-bottom: 3rem;
+  }
+  
+  /* Skills section */
+  section.skills {
+    padding: 3rem 2rem;
+  }
+  .skills img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Latest projects section */
+  section.latest-projects {
+    padding: 3rem 2rem;
+  }
+  .latest-projects .row {
+    margin-bottom: 3rem;
+  }
+  
+  /* Testimonials section */
+  section.testimonial {
+    padding: 3rem 2rem;
+  }
+  .testimonial .row {
+    margin-bottom: 3rem;
+  }
+  
+  /* Get in touch section */
+  section.get-in-touch {
+    padding: 3rem 2rem;
+  }
+  .get-in-touch .title {
+    font-size: 2.5rem;
+  }
+  .contact-form {
+    padding: 2rem;
+  }
+  
+  /* Footer section */
+  section.footer {
+    padding: 2rem;
+  }
+}
+
+/* Desktop devices (max-width: 992px) */
+@media (max-width: 992px) {
+  /* Navbar */
+  .navbar {
+    padding: 1rem 2rem;
+  }}
+
+    
+  
